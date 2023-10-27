@@ -1,0 +1,146 @@
+<wrapper>
+    <cities>
+        <city>
+            <name>Danderyd</name>
+            <latitude>59.4043888</latitude>
+            <longitude>18.0280746</longitude>
+        </city>
+        <city>
+            <name>Saitama</name>
+            <latitude>35.9227705</latitude>
+            <longitude>139.7492367</longitude>
+        </city>
+        <city>
+            <name>Santo Niño</name>
+            <latitude>14.3839328</latitude>
+            <longitude>121.050126</longitude>
+        </city>
+        <city>
+            <name>Cruz del Eje</name>
+            <latitude>-31.4847366</latitude>
+            <longitude>-64.2108962</longitude>
+        </city>
+        <city>
+            <name>Kỳ Anh</name>
+            <latitude>18.0559583</latitude>
+            <longitude>106.2992912</longitude>
+        </city>
+        <city>
+            <name>Huangcun</name>
+            <latitude>23.131797</latitude>
+            <longitude>113.407143</longitude>
+        </city>
+        <city>
+            <name>Labrador City</name>
+            <latitude>52.9369158</latitude>
+            <longitude>-66.9238331</longitude>
+        </city>
+        <city>
+            <name>Jocotenango</name>
+            <latitude>14.577579</latitude>
+            <longitude>-90.73956</longitude>
+        </city>
+        <city>
+            <name>La Sarre</name>
+            <latitude>48.7925732</latitude>
+            <longitude>-79.201011</longitude>
+        </city>
+        <city>
+            <name>Pelaya</name>
+            <latitude>8.688031</latitude>
+            <longitude>-73.666377</longitude>
+        </city>
+    </cities>
+    <distances>
+        <distance>
+            <fromCity>
+                <name>Huangcun</name>
+            </fromCity>
+            <toCity>
+                <name>La Sarre</name>
+            </toCity>
+            <distance>97.18</distance>
+        </distance>
+        <distance>
+            <fromCity>
+                <name>Danderyd</name>
+            </fromCity>
+            <toCity>
+                <name>Kỳ Anh</name>
+            </toCity>
+            <distance>942.93</distance>
+        </distance>
+        <distance>
+            <fromCity>
+                <name>La Sarre</name>
+            </fromCity>
+            <toCity>
+                <name>La Sarre</name>
+            </toCity>
+            <distance>1413.64</distance>
+        </distance>
+        <distance>
+            <fromCity>
+                <name>Jocotenango</name>
+            </fromCity>
+            <toCity>
+                <name>La Sarre</name>
+            </toCity>
+            <distance>3.71</distance>
+        </distance>
+        <distance>
+            <fromCity>
+                <name>La Sarre</name>
+            </fromCity>
+            <toCity>
+                <name>Danderyd</name>
+            </toCity>
+            <distance>1970.56</distance>
+        </distance>
+        <distance>
+            <fromCity>
+                <name>La Sarre</name>
+            </fromCity>
+            <toCity>
+                <name>Cruz del Eje</name>
+            </toCity>
+            <distance>1673.57</distance>
+        </distance>
+        <distance>
+            <fromCity>
+                <name>La Sarre</name>
+            </fromCity>
+            <toCity>
+                <name>Labrador City</name>
+            </toCity>
+            <distance>1794.94</distance>
+        </distance>
+        <distance>
+            <fromCity>
+                <name>Jocotenango</name>
+            </fromCity>
+            <toCity>
+                <name>Kỳ Anh</name>
+            </toCity>
+            <distance>104.47</distance>
+        </distance>
+        <distance>
+            <fromCity>
+                <name>Cruz del Eje</name>
+            </fromCity>
+            <toCity>
+                <name>Huangcun</name>
+            </toCity>
+            <distance>534.86</distance>
+        </distance>
+        <distance>
+            <fromCity>
+                <name>Pelaya</name>
+            </fromCity>
+            <toCity>
+                <name>La Sarre</name>
+            </toCity>
+            <distance>938.09</distance>
+        </distance>
+    </distances>
+</wrapper>

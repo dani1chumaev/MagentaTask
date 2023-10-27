@@ -1,0 +1,38 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: Danil
+      changes:
+        - createTable:
+            tableName: distance
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+                    unique: true
+              - column:
+                  name: from_city
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_from_city
+                    references: city(id)
+              - column:
+                  name: to_city
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_to_city
+                    references: city(id)
+              - column:
+                  name: distance
+                  type: double
+                  constraints:
+                    nullable: false
+        - addUniqueConstraint:
+            columnNames: from_city, to_city
+            tableName: distance
